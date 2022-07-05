@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
     border: none;
-    background-color: antiquewhite;
+    background-color: white;
 }
 h1{
     font-size: 50px;
@@ -19,7 +19,11 @@ h1{
     width: 100%;
     margin-bottom: 100px;
 }
-
+#background-img{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
 .half-width {
     margin-left: 3%;
     padding: 3%;
@@ -103,4 +107,6 @@ footer {
     background-color: black;
     color: rgb(186, 195, 202);
     font-weight: bold;
+    height: 300px;
+    padding-top: 50px;
 }
